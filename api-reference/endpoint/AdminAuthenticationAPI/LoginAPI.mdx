@@ -1,0 +1,85 @@
+---
+description: "Description of your new file."
+title: "Admin Login API"
+---
+
+````
+# Admin Login API
+
+Login endpoint for admin users.
+
+## Endpoint
+`POST http://develop.trip.stage.dcs/clients/csb/public/api.php/auth/login`
+
+## Description
+Authenticates an admin user by submitting a username and password using `form-data`.
+
+## Request
+
+### Method
+`POST`
+
+### Body Parameters (form-data)
+| Name     | Type   | Description         |
+|----------|--------|---------------------|
+| Username | string | Admin email address |
+| Password | string | Admin password      |
+
+#### Example Form Data
+```json
+{
+  "Username": "",
+  "Password": ""
+}
+```
+
+> ⚠️ **Note:** This is test data. Never expose real credentials in production documentation.
+
+## Response
+a
+# Admin Login API
+
+Login endpoint for admin users.
+
+## Endpoint
+`POST http://develop.trip.stage.dcs/clients/csb/public/api.php/auth/login`
+
+## Description
+Authenticates an admin user by submitting a username and password using `form-data`.
+
+## Request
+
+### Method
+`POST`
+
+### Body Parameters (form-data)
+| Name     | Type   | Description         |
+|----------|--------|---------------------|
+| Username | string | Admin email address |
+| Password | string | Admin password      |
+
+#### Example Form Data
+```json
+{
+  "Username": "shresth.srivastava@dcsplus.net",
+  "Password": "Admin@1234"
+}
+```
+
+> ⚠️ **Note:** This is test data. Never expose real credentials in production documentation.
+
+## Response
+_Not provided in Postman collection._ You can update this section with actual response examples.
+
+## Sample `curl` Request
+```bash
+curl -X POST http://develop.trip.stage.dcs/clients/csb/public/api.php/auth/login \
+  -F "Username=shresth.srivastava@dcsplus.net" \
+  -F "Password=Admin@1234"
+
+## Sample `curl` Request
+```bash
+curl -X POST http://develop.trip.stage.dcs/clients/csb/public/api.php/auth/login \
+  -F "Username=" \
+  -F "Password="
+````
